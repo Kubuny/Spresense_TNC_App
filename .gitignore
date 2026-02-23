@@ -1,0 +1,15 @@
+# ビルド時に生成される一時ファイル（ゴミ）
+.built
+.depend
+Make.dep
+*.nuttx
+*.nuttx.spk
+
+# VS Code拡張機能が自動生成する設定のコピー
+sdk.config
+config.h
+
+# エディタの一時ファイルやバックアップ
+*~
+*.swp
+*.home.*
